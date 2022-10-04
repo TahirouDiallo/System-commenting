@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  
+  <body>
+    <div id="wrapper">
+    <div id="hdcomments">
+    <h3> Comment Section</h3>
+    <div id ="hdc_create_comment">
+      <!-- comment form -->
+      <label for ="hdc_comment_input" class= "hdc_label">Leave a comment</label>
+      <textarea id = "hdc_comment_input" rows ="6" class = "hdc_input"></textarea>
+
+      <div id ="hdc_comment_contact">
+      <div>   
+      <label for = "hdc_email_input" class= "hdc_label">Please Enter Email</label>
+      <input type = "email" id = "hdc_email_input" class = "hdc_input"/>
+      </div>
+      <div>     
+      <label for = "hdc_name_input" class= "hdc_label">Please Enter your Name</label>
+      <input type = "text" id = "hdc_name_input" class = "hdc_input" />
+      </div>
+      </div>
+      <div id = "hdc_comment_footer">
+        <div id = "hdc_comment_reactions">
+        <h4 id = "hdc_reaction_title">Reactions</h4>
+        <span class = "hdc_reaction" data-reaction = "love">❤️</span>
+        <span class = "hdc_reaction" data-reaction = "star">✨</span>
+        <span class = "hdc_reaction" data-reaction = "smile">😊</span>
+        <span class = "hdc_reaction" data-reaction = "like">👍🏽</span>
+        </div>
+        <button id = "hdc_sumbit" disabled = >Submit</button>
+      </div>
+       
+      <div id = "hdc_comments">
+        <!-- "show existing comments" -->
+      </div>
+     </div>
+     </div>
+     <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+   <script type="type/javascript" src="main.js"></script>
+  </body>
+  </html>
